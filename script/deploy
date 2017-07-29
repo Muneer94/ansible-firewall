@@ -1,0 +1,7 @@
+#!/bin/sh
+ 
+ssh muneer@127.0.0.1 <<EOF
+  cd /var/www/ansible-firewall
+  git pull
+  exit
+EOF
