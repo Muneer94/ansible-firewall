@@ -19,3 +19,4 @@ ufw_reset: yes
 # UFW custom configuration
 ufw_rules: [{ port: 22, rule: allow }]
 ufw_applications: []
+
